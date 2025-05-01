@@ -1,5 +1,5 @@
 # Simple Discord Ticket Bot
-##
+###
 ## Functions:
 #### - Binding categories for tickets like: Administration, Moderators, Supports, Closed
 #### - Addind users to ticket
@@ -33,10 +33,10 @@
 #### /set_role aiad 1111(id) (easy to add new ones, showing below)
 #### /set_ticket_panel (choose from list of channels)
 #### /get_role (choose from list of channels)
-##
-##
-##
-##
+###
+###
+###
+###
 # Configuring new categories and roles
 ## For example categories:
 ### Part of code:
@@ -52,8 +52,8 @@
 ### ])
 ### If you want to add new one just follow sentance, for example
 ### app_commands.Choice(name="New", value="github_example")
-##
-##
+###
+###
 ###
 ## Now roles:
 ### Some part of code:
@@ -64,5 +64,5 @@
 ### ])
 ### To add new one you just have to follow sentance:
 ### app_commands.Choice(name="New_Role", value="Github_Role")
-##
+###
 ## If you will do everything correct, bot will just show your own new options (you also can edit mine ofc) in slash command
