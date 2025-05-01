@@ -40,29 +40,29 @@
 # Configuring new categories and roles
 ## For example categories:
 ### Part of code:
-### @app_commands.choices(typ_ticketu=[
-###        app_commands.Choice(name="AIAD", value="aiad"),
-###        app_commands.Choice(name="Skarga", value="skarga"),
-###        app_commands.Choice(name="High Command", value="high_command"),
-###        app_commands.Choice(name="Urlop", value="urlop"),
-###        app_commands.Choice(name="Odwołanie", value="odwolanie"),
-###        app_commands.Choice(name="Inne", value="inne"),
-###        app_commands.Choice(name="SWAT", value="swat"),
-###        app_commands.Choice(name="Zamknięte", value="zamkniete")
-### ])
+#### @app_commands.choices(typ_ticketu=[
+####        app_commands.Choice(name="AIAD", value="aiad"),
+####        app_commands.Choice(name="Skarga", value="skarga"),
+####        app_commands.Choice(name="High Command", value="high_command"),
+####        app_commands.Choice(name="Urlop", value="urlop"),
+####        app_commands.Choice(name="Odwołanie", value="odwolanie"),
+####        app_commands.Choice(name="Inne", value="inne"),
+####        app_commands.Choice(name="SWAT", value="swat"),
+####        app_commands.Choice(name="Zamknięte", value="zamkniete")
+#### ])
 ### If you want to add new one just follow sentance, for example
-### app_commands.Choice(name="New", value="github_example")
+#### app_commands.Choice(name="New", value="github_example")
 ###
 ###
 ###
 ## Now roles:
 ### Some part of code:
-### @app_commands.choices(nazwa_roli=[
-###    app_commands.Choice(name="AIAD", value="aiad"),
-###    app_commands.Choice(name="High Command", value="high_command"),
-###    app_commands.Choice(name="Command Staff", value="command_staff")
-### ])
+#### @app_commands.choices(nazwa_roli=[
+####    app_commands.Choice(name="AIAD", value="aiad"),
+####    app_commands.Choice(name="High Command", value="high_command"),
+####    app_commands.Choice(name="Command Staff", value="command_staff")
+#### ])
 ### To add new one you just have to follow sentance:
-### app_commands.Choice(name="New_Role", value="Github_Role")
+#### app_commands.Choice(name="New_Role", value="Github_Role")
 ###
 ## If you will do everything correct, bot will just show your own new options (you also can edit mine ofc) in slash command
