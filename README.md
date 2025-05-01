@@ -11,12 +11,19 @@
 #### - Config in JSON
 
 ## Commands:
-#### /close - closing ticket
-#### /delete_from_ticket - deleting user from ticket
-#### /set_category - for binding categories using ids
-#### /set_roles - set roles, then use in mapping
+#### /get_role - panel to get roles by emoji (react to get)
+#### /close_ticket - closing ticket
 #### /set_ticket_panel - sending panel to channel
 #### /show_config - showing config
+#### /set_category - for binding categories using ids
+#### /set_roles - set roles, then use in mapping
+#### /delete_from_ticket - deleting user from ticket
+#### /add_to_ticket
 
 
-#### Commands are in english but every prints etc. are in polish, need translation :)
+
+
+
+## Every INFO + Debug + Errors are in polish, needs translation
+
+# Bot was created for polish FiveM LSPD
