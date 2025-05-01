@@ -38,7 +38,7 @@ The bot uses a `ticket_config.json` file for its settings. You can easily add ne
 
 ### Adding New Ticket Categories
 
-1.  Locate the `@app_commands.choices` decorator for the `typ_ticketu` argument within the `/ustaw_kategorie` command definition.
+1.  Locate the `@app_commands.choices` decorator for the `typ_ticketu` argument within the `/set_category` command definition.
 2.  Add a new `app_commands.Choice` line following the existing pattern.
 
     ```python
@@ -57,7 +57,7 @@ The bot uses a `ticket_config.json` file for its settings. You can easily add ne
 
 ### Adding New Staff Roles
 
-1.  Locate the `@app_commands.choices` decorator for the `nazwa_roli` argument within the `/ustaw_role` command definition.
+1.  Locate the `@app_commands.choices` decorator for the `nazwa_roli` argument within the `/set_role` command definition.
 2.  Add a new `app_commands.Choice` line. The `value` should be a unique internal identifier for this staff group.
 
     ```python
