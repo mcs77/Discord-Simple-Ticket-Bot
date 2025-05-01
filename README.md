@@ -9,6 +9,8 @@
 #### - Deleting tickets
 #### - Closing tickets
 #### - Config in JSON
+#### - Sending embed with user information after creating ticket
+#### - Confirmation of closing, deleting + asking owner of ticket for closing
 
 ## Commands:
 #### /get_role - panel to get roles by emoji (react to get)
