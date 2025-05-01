@@ -44,12 +44,11 @@
             "command_staff"
         ],
         "swat": [
-            "high_command",
-            "command_staff"
+            "high_command"
         ]
     },
-    "ticket_panel_channel_id": 1367155305510866974,
-    "ticket_panel_message_id": 1367229041123524720,
+    "ticket_panel_channel_id": null,
+    "ticket_panel_message_id": null,
     "ticket_counters": {
         "high_command": 0,
         "aiad": 0,
