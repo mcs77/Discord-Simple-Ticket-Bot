@@ -18,7 +18,7 @@
 #### /set_category - for binding categories using ids
 #### /set_roles - set roles, then use in mapping
 #### /delete_from_ticket - deleting user from ticket
-#### /add_to_ticket
+#### /add_to_ticket - adding user to ticket
 
 
 
