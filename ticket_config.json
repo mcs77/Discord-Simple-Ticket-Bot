@@ -1,0 +1,62 @@
+{
+    "ticket_categories": {
+        "aiad": "1111",
+        "high_command": "1111",
+        "urlop": "1111",
+        "zamkniete": "1111",
+        "skarga": "1111",
+        "odwolanie": "1111",
+        "swat": "1111",
+        "inne": "1111"
+    },
+    "ticket_roles": {
+        "high_command": "1111",
+        "aiad": "1111",
+        "command_staff": "1111"
+    },
+    "ticket_role_mapping": {
+        "aiad": [
+            "aiad",
+            "high_command",
+            "command_staff"
+        ],
+        "high_command": [
+            "high_command"
+        ],
+        "urlop": [
+            "high_command",
+            "command_staff"
+        ],
+        "zamkniete": [
+            "high_command"
+        ],
+        "odwolanie": [
+            "high_command",
+            "command_staff"
+        ],
+        "skarga": [
+            "aiad",
+            "high_command",
+            "command_staff"
+        ],
+        "inne": [
+            "high_command",
+            "command_staff"
+        ],
+        "swat": [
+            "high_command",
+            "command_staff"
+        ]
+    },
+    "ticket_panel_channel_id": 1367155305510866974,
+    "ticket_panel_message_id": 1367229041123524720,
+    "ticket_counters": {
+        "high_command": 0,
+        "aiad": 0,
+        "urlop": 0,
+        "skarga": 0,
+        "odwolanie": 0
+    },
+    "ticket_creators": {
+    }
+}
