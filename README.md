@@ -17,3 +17,6 @@
 #### /set_roles - set roles, then use in mapping
 #### /set_ticket_panel - sending panel to channel
 #### /show_config - showing config
+
+
+#### Commands are in english but every prints etc. are in polish, need translation :)
