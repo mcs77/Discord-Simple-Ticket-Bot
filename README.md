@@ -62,7 +62,6 @@ The bot uses a `ticket_config.json` file for its settings. You can easily add ne
 
     ```python
     @app_commands.choices(nazwa_roli=[
-        app_commands.Choice(name="AIAD", value="aiad_staff"), # Example: value = 'aiad_staff'
         app_commands.Choice(name="High Command", value="high_command"),
         app_commands.Choice(name="Command Staff", value="command_staff"),
         # Add your new role choice here:
