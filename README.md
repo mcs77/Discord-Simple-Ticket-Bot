@@ -20,7 +20,7 @@ A versatile Discord bot designed for managing support tickets, initially created
 
 ## 🛠️ Commands
 
-* `/get_role` - Sends the panel for users to get roles via emoji reaction.
+* `/get_role` - Sends the panel for users to get roles via emoji reaction - have to define role in code by ID, no slash command for that.
 * `/close_ticket` - Closes the current ticket (moves to 'Closed' category, adjusts permissions, renames channel).
 * `/send_ticket_panel` - Sends or updates the ticket creation panel to the configured channel.
 * `/show_config` - Displays the current bot configuration (admin only).
